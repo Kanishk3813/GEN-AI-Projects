@@ -17,7 +17,7 @@ body, html {
   color: #fff;
 }
 
-
+   /* Navbar */
 
 nav {
   display: flex;
@@ -115,9 +115,7 @@ nav img {
   }
 }
 
-
-
-
+/* Hero Banner */
 
 .hero-banner {
   align-items: center;
@@ -152,14 +150,9 @@ nav img {
 }
 
 .content {
-  /* background: url('assets/bg.jpeg') center/cover no-repeat fixed; */
   background-color: black;
   font-size: 10px;
-  /* padding: 120px 80px; */
   height: 70vh;
-  /* position: relative;
-  overflow: hidden; */
-  /* border-radius: 15px; */
   font-family: 'Poppins', sans-serif;
   font-family: 'Tektur', sans-serif;
 }
@@ -169,7 +162,6 @@ body {
   background: url(assets/mainBg.jpg) center/cover no-repeat fixed;
 
 }
-
 
 .container {
   height : 100%;
@@ -190,7 +182,7 @@ body {
 
 @media screen and (max-width: 1200px) {
   .hero-banner__title {
-    font-size: 80px;
+    font-size: 70px;
   }
 
   .hero-banner__image {
@@ -215,21 +207,11 @@ body {
     padding: 80px 40px;
     margin-top: -1px;
     margin-bottom: 0px;
-    height: 30vh;
+    height: 40vh;
   }
 
-  .mySlides {
-    height: 30vh;
-  }
-
-  a {
-    font-size: 3em;
-  }
-
-  .prev,
-  .next {
-    top: 31%;
-    font-size: 15px;
+  .text {
+    font-size: 22px;
   }
 }
 
@@ -307,7 +289,6 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 10px;
-  
   transform: rotateY(0deg);
   transition: transform 0.5s;
   cursor: pointer;
@@ -477,8 +458,6 @@ body {
 }
 
 
-
-
 .icons{
   backdrop-filter: blur(5px);
   background-color: #000;
@@ -509,7 +488,6 @@ cursor: pointer;
 -webkit-transition-timing-function: ease; 
 } 
 
-/*change the number below to scale to the appropriate size*/ 
 .thumbnail:hover { 
 transform: scale(1.2); 
 }
@@ -575,7 +553,6 @@ footer{
     display: none;
   }
 
-  /* Adjust the position of the navLinks for better visibility */
   .nav-links {
     right: 0;
   }
@@ -587,24 +564,15 @@ footer{
 
 @media screen and (max-width: 768px) {
   .nav-links ul {
-    padding: 2px; /* Adjust the padding as needed */
+    padding: 2px;
   }
 
   .nav-links ul li {
-    margin-bottom: 1px; /* Adjust the margin as needed */
+    margin-bottom: 1px;
   }
 }
 
 
-
-
-
-
-
-
-
-/* Existing code... */
-/* Hero Banner Text Animation */
 .hero-banner__title {
   animation: lights 20s infinite;
 }
@@ -656,11 +624,10 @@ footer{
   }
 }
 
-/* Existing code... */
 
 .hero-banner__image {
-  border: none; /* Remove the border */
-  border-radius: 1500px; /* Adjust the border-radius to match the background */
+  border: none;
+  border-radius: 1500px;
   position: fixed;
   transform: rotate(-15deg);
   width: 500px;
@@ -668,8 +635,8 @@ footer{
 
 @media screen and (max-width: 768px){
 .hero-banner__image {
-  border: none; /* Remove the border */
-  border-radius: 1500px; /* Adjust the border-radius to match the background */
+  border: none;
+  border-radius: 1500px;
   position: fixed;
   transform: rotate(-15deg);
   width: 370px;

@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function() {
         entry.target.classList.remove('visible');
       }
     });
-  }, { threshold: 0.5 }); // Adjust the threshold as needed
+  }, { threshold: 0.5 });
 
   const hiddenElements = document.querySelectorAll('.card');
   hiddenElements.forEach((el) => observer.observe(el));
